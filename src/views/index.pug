@@ -1,10 +1,26 @@
+doctype html
 html(lang="es")
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Web II
+    link(rel="stylesheet", href='/css/index.css')
   body 
-    ul 
-      each user in users
-        li = !{user.firstname}
+    h2 WEB II 
+    table 
+      tr 
+        th Nombre 
+        th Apellido 
+        th Documento 
+        th Direcci&oacute;n
+        th Telefono 
+        th Correo
+      each user in users 
+        tr
+          td #{user.firstname}
+          td #{user.lastname}
+          td #{user.document}
+          td #{user.address}
+          td #{user.phone}
+          td #{user.email}

@@ -6,6 +6,8 @@ const port = 3000
 app.set('views', `${__dirname}/views`)
 app.set('view engine', 'pug')
 
+app.use(express.static(`${__dirname}/../public`));
+
 app.get('/', (req, res) => {
   userService.getAll()
   .then((result) => {
@@ -13,6 +15,13 @@ app.get('/', (req, res) => {
     .render('index.pug', {
       users: result
     })
+  })
+  .catch((err) => {
+    console.log(err)
+    res.status(500)
+      .render('error.pug', {
+        errorNumber: 500
+      })
   })
 })
 

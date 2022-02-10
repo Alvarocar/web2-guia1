@@ -38,4 +38,38 @@ VALUES
     'andres@example.com'
   );
   
-  
+INSERT INTO
+  user (firstname, lastname, document, address, phone, email)
+VALUES
+  (
+    'Monica',
+    'Fuentes',
+    '1013215315',
+    'bosa',
+    '1316456123',
+    'monica@example.com'
+  );
+
+INSERT INTO
+  user (firstname, lastname, document, address, phone, email)
+VALUES
+  (
+    'Luis',
+    'Castañeda',
+    '1856446215',
+    'zipa',
+    '1316456123',
+    'luis@example.com'
+  );
+
+INSERT INTO
+  user (firstname, lastname, document, address, phone, email)
+VALUES
+  (
+    'Manolo',
+    'Cruz',
+    '1856985672',
+    'suba',
+    '1316456123',
+    'luis@example.com'
+  );
