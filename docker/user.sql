@@ -46,7 +46,7 @@ VALUES
     'Fuentes',
     '1013215315',
     'bosa',
-    '1316456123',
+    '1316456321',
     'monica@example.com'
   );
 
@@ -58,7 +58,7 @@ VALUES
     'Castañeda',
     '1856446215',
     'zipa',
-    '1316456123',
+    '1316456777',
     'luis@example.com'
   );
 
@@ -70,6 +70,6 @@ VALUES
     'Cruz',
     '1856985672',
     'suba',
-    '1316456123',
-    'luis@example.com'
+    '1378456127',
+    'manolo@example.com'
   );
