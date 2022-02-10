@@ -1,9 +1,7 @@
 const { conn } = require('../infra/mysql_conexion')
 const util = require('util');
-const { throws } = require('assert');
 
 const query = util.promisify(conn.query).bind(conn);
-const on = util.promisify(conn.on).bind(conn);
 
 /**
  * Hace una consulta para retornar todos los registros
