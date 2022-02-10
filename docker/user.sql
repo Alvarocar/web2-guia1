@@ -73,3 +73,15 @@ VALUES
     '1378456127',
     'manolo@example.com'
   );
+
+INSERT INTO
+  user (firstname, lastname, document, address, phone, email)
+VALUES
+  (
+    'Miguel',
+    'Guerrero',
+    '185691111',
+    'suba',
+    '1376412127',
+    'miguel@example.com'
+  );
